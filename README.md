@@ -1,4 +1,4 @@
-# <img src = 'Assets/windows-logo.png' width = 20> WinScripts - Toolset for Windows Computers
+# <img src = 'Assets/windows-logo.png' width = 27> WinScripts - Toolset for Windows Computers
 WinScripts is a collection of batch files that run a variety of scripts that help assist you install various applications, improve performance, and more.
 
 These tools assume your running Windows 10 or 11, either x64 or x86.
