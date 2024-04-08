@@ -8,7 +8,7 @@ title WinScript
 
 :: Data
 set list_length=6
-set last_updated="4/3/2024"
+set last_updated="4/7/2024"
 
 :: URLs and Redirects
 set visual_studio_code="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
@@ -17,6 +17,7 @@ set node_installer="https://nodejs.org/dist/v20.12.0/node-v20.12.0-x64.msi"
 set git_installer="https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe"
 set jetbrains_webstorm="https://download.jetbrains.com/webstorm/WebStorm-2023.3.6.exe"
 set java_installer="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=249535_4d245f941845490c91360409ecffb3b4"
+set githubDesktop_installer="https://central.github.com/deployments/desktop/desktop/latest/win32"
 
 :: Start
 echo WinScripts - Bulk Development Installer (Last Updated: %last_updated%)
@@ -29,6 +30,7 @@ echo - Node Installer @ %node_installer%
 echo - Git Installer @ %git_installer%
 echo - Jetbrains Webstorm @ %jetbrains_webstorm%
 echo - Java Installer @ %java_installer%
+echo - GitHub Desktop Installer @ %githubDesktop_installer%
 
 :: Pause
 echo.
@@ -42,3 +44,4 @@ start "" %node_installer%
 start "" %git_installer%
 start "" %jetbrains_webstorm%
 start "" %java_installer%
+start "" %githubDesktop_installer%
